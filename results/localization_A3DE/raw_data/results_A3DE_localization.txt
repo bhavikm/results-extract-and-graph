@@ -1,0 +1,52 @@
+
+======================
+Petal: the system for learning from big data
+Version 0.2
+./petal localization/localization_mdl.pmeta localization/localization_mdl.pdata -x2 -v2 -lA3DE 
+
+Loading metadata file localization/localization_mdl.pmeta
+Cross validation experiment 1 for localization/localization_mdl.pdata
+Fold 0
+
+0-1 loss (fold 0): 0.2867
+RMSE (fold 0): 0.5029
+RMSE All Classes (fold 0):  0.1927
+Logarithmic Loss (fold 0):  1.3875
+--------------------------------------------
+Fold 1
+
+0-1 loss (fold 1): 0.2871
+RMSE (fold 1): 0.5043
+RMSE All Classes (fold 1):  0.1933
+Logarithmic Loss (fold 1):  1.4118
+--------------------------------------------
+
+ walki falli lying lying sitti sitti stand onall sitti stand stand <- Actual class
+ 22547   625  1235  1226   492  1573  3170   709   158   372   578 <- walking predicted
+   366   372    10   292    21   171   290    25    68     5    68 <- falling predicted
+   793     6  1371   569    30   102  1009   279     5    31    16 <- lyingdown predicted
+  1945   824  1647 48371    95   795  4388   921   272    47   268 <- lying predicted
+   300    26    28    26   246   225    73    28    13    80    23 <- sittingdown predicted
+  2656   433   230   897   627 23323   937   215   165   526   195 <- sitting predicted
+  2750   369  1260  2095    64   469  7184   608   180    66   395 <- standingupfromlying predicted
+   498    19   316   639    22    90   555  2326     9    21    40 <- onallfours predicted
+   236   230    17   228    23   203   360    36 10751    10   387 <- sittingontheground predicted
+   238     4    37    37    70   204    67    35     5   209    19 <- standingupfromsitting predicted
+   381    65    17   100    16    89   328    28   153    14   859 <- standingupfromsittingontheground predicted
+
+MCC:
+0.6389
+
+0-1 loss:
+0.2869
++/-:0.0003
+RMSE:
+0.5036
++/-:0.0010
+RMSE All Classes: 0.1930
+             +/-: 0.0004
+Logarithmic Loss: 1.3996
+             +/-: 0.0172
+Training time: 20 seconds
+Classification time: 20 seconds
+

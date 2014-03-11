@@ -1,0 +1,1219 @@
+======================
+Petal: the system for learning from big data
+Version 0.2
+./petal localization/localization_mdl.pmeta localization/localization_mdl.pdata -x2 -v2 -lA3DE_LOSSY -lcu_sws -w10000 
+
+Loading metadata file localization/localization_mdl.pmeta
+Lossy Min Sketch Width: 10000 
+Using lcu_sws filter
+Cross validation experiment 1 for localization/localization_mdl.pdata
+Fold 0
+
+0-1 loss (fold 0): 0.3220
+RMSE (fold 0): 0.6983
+RMSE All Classes (fold 0):  0.2307
+Logarithmic Loss (fold 0):  1.8775
+--------------------------------------------
+Fold 1
+
+0-1 loss (fold 1): 0.3226
+RMSE (fold 1): 0.6970
+RMSE All Classes (fold 1):  0.2303
+Logarithmic Loss (fold 1):  1.8779
+--------------------------------------------
+
+ walki falli lying lying sitti sitti stand onall sitti stand stand <- Actual class
+ 23485   835  1647  2281   773  3106  3988  1185   323   623   831 <- walking predicted
+    37    59     1    15     1    17    12     0     8     0     1 <- falling predicted
+   226     0   507   299     0    19   373    49     0     3     2 <- lyingdown predicted
+  2581   859  1891 46589   121  1283  4935  1620   516    60   482 <- lying predicted
+     4     0     0     0     8     2     2     0     0     0     0 <- sittingdown predicted
+  2838   484   241  1315   636 21815  1025   252   283   557   240 <- sitting predicted
+  3132   542  1730  3470   133   753  7468   799   332   106   695 <- standingupfromlying predicted
+   199     2   140   250     7    35   212  1273     1     7     7 <- onallfours predicted
+   143   188    10   243    21   198   311    31 10304     8   388 <- sittingontheground predicted
+     2     0     1     1     0     4     4     0     0    16     0 <- standingupfromsitting predicted
+    63     4     0    17     6    12    31     1    12     1   202 <- standingupfromsittingontheground predicted
+
+MCC:
+0.5902
+
+0-1 loss:
+0.3223
++/-:0.0004
+RMSE:
+0.6977
++/-:0.0010
+RMSE All Classes: 0.2305
+             +/-: 0.0003
+Logarithmic Loss: 1.8777
+             +/-: 0.0003
+Training time: 20 seconds
+Classification time: 20 seconds
+
+======================
+Petal: the system for learning from big data
+Version 0.2
+./petal localization/localization_mdl.pmeta localization/localization_mdl.pdata -x2 -v2 -lA3DE_LOSSY -lcu_sws -w20000 
+
+Loading metadata file localization/localization_mdl.pmeta
+Lossy Min Sketch Width: 20000 
+Using lcu_sws filter
+Cross validation experiment 1 for localization/localization_mdl.pdata
+Fold 0
+
+0-1 loss (fold 0): 0.3661
+RMSE (fold 0): 0.7011
+RMSE All Classes (fold 0):  0.2307
+Logarithmic Loss (fold 0):  1.9223
+--------------------------------------------
+Fold 1
+
+0-1 loss (fold 1): 0.3653
+RMSE (fold 1): 0.6999
+RMSE All Classes (fold 1):  0.2305
+Logarithmic Loss (fold 1):  1.9236
+--------------------------------------------
+
+ walki falli lying lying sitti sitti stand onall sitti stand stand <- Actual class
+ 18441   646  1043  2036   532  2427  3077   741   245   400   616 <- walking predicted
+   407   313     6   490    15   245   254     8    94     3    36 <- falling predicted
+  1204     3  1447  1383    30   136  1406   227     3    27    10 <- lyingdown predicted
+  2387   638  1399 42565   113  1019  3914  1001   388    84   320 <- lying predicted
+   180     6     3     7   125   141    13     3     7    29    11 <- sittingdown predicted
+  3235   417   257  1313   601 21300  1009   220   257   502   205 <- sitting predicted
+  5484   716  1688  5508   201  1422  7599  1011   551   163   704 <- standingupfromlying predicted
+   674    13   300   719    27   132   575  1951     6    23    20 <- onallfours predicted
+   188   176    11   301    16   212   253    25 10056     7   282 <- sittingontheground predicted
+   126     0    10    19    28   118    14     4     0   132     4 <- standingupfromsitting predicted
+   384    45     4   139    18    92   247    19   172    11   640 <- standingupfromsittingontheground predicted
+
+MCC:
+0.5447
+
+0-1 loss:
+0.3657
++/-:0.0006
+RMSE:
+0.7005
++/-:0.0008
+RMSE All Classes: 0.2306
+             +/-: 0.0002
+Logarithmic Loss: 1.9230
+             +/-: 0.0010
+Training time: 20 seconds
+Classification time: 20 seconds
+
+======================
+Petal: the system for learning from big data
+Version 0.2
+./petal localization/localization_mdl.pmeta localization/localization_mdl.pdata -x2 -v2 -lA3DE_LOSSY -lcu_sws -w30000 
+
+Loading metadata file localization/localization_mdl.pmeta
+Lossy Min Sketch Width: 30000 
+Using lcu_sws filter
+Cross validation experiment 1 for localization/localization_mdl.pdata
+Fold 0
+
+0-1 loss (fold 0): 0.3805
+RMSE (fold 0): 0.6869
+RMSE All Classes (fold 0):  0.2272
+Logarithmic Loss (fold 0):  1.9100
+--------------------------------------------
+Fold 1
+
+0-1 loss (fold 1): 0.3815
+RMSE (fold 1): 0.6856
+RMSE All Classes (fold 1):  0.2270
+Logarithmic Loss (fold 1):  1.9152
+--------------------------------------------
+
+ walki falli lying lying sitti sitti stand onall sitti stand stand <- Actual class
+ 16714   573  1011  1969   426  2031  2915   634   282   331   494 <- walking predicted
+   686   432    17   760    35   385   497    27   168     7   100 <- falling predicted
+  1759    16  1565  1595    68   297  1696   375    10    52    33 <- lyingdown predicted
+  2346   599  1364 42356   106  1007  3826   954   305    61   270 <- lying predicted
+   455    19    17    47   197   316    77    21    11    71    20 <- sittingdown predicted
+  3252   417   254  1324   528 20952  1016   226   262   462   216 <- sitting predicted
+  5294   621  1500  4865   195  1387  6838   896   478   151   599 <- standingupfromlying predicted
+  1042    26   386   912    33   185   708  1994    14    32    39 <- onallfours predicted
+   256   187    11   356    19   276   308    36 10022    11   269 <- sittingontheground predicted
+   311     4    22    46    71   248    61    18     5   187    17 <- standingupfromsitting predicted
+   595    79    21   250    28   160   419    29   222    16   791 <- standingupfromsittingontheground predicted
+
+MCC:
+0.5288
+
+0-1 loss:
+0.3810
++/-:0.0007
+RMSE:
+0.6862
++/-:0.0009
+RMSE All Classes: 0.2271
+             +/-: 0.0001
+Logarithmic Loss: 1.9127
+             +/-: 0.0037
+Training time: 20 seconds
+Classification time: 20 seconds
+
+======================
+Petal: the system for learning from big data
+Version 0.2
+./petal localization/localization_mdl.pmeta localization/localization_mdl.pdata -x2 -v2 -lA3DE_LOSSY -lcu_sws -w40000 
+
+Loading metadata file localization/localization_mdl.pmeta
+Lossy Min Sketch Width: 40000 
+Using lcu_sws filter
+Cross validation experiment 1 for localization/localization_mdl.pdata
+Fold 0
+
+0-1 loss (fold 0): 0.3942
+RMSE (fold 0): 0.6676
+RMSE All Classes (fold 0):  0.2237
+Logarithmic Loss (fold 0):  1.9155
+--------------------------------------------
+Fold 1
+
+0-1 loss (fold 1): 0.3955
+RMSE (fold 1): 0.6671
+RMSE All Classes (fold 1):  0.2237
+Logarithmic Loss (fold 1):  1.9170
+--------------------------------------------
+
+ walki falli lying lying sitti sitti stand onall sitti stand stand <- Actual class
+ 15594   551   936  1889   386  1826  2826   655   229   289   486 <- walking predicted
+   901   417    20   935    35   466   618    41   213    16    99 <- falling predicted
+  2027    37  1504  1562    60   332  1713   434    22    64    53 <- lyingdown predicted
+  2508   576  1417 42219    99  1066  3892   946   302    79   300 <- lying predicted
+   780    44    52   129   218   464   162    55    31   103    35 <- sittingdown predicted
+  3154   425   299  1400   550 20836  1088   228   258   423   235 <- sitting predicted
+  4946   540  1441  4490   167  1213  6238   876   455   121   541 <- standingupfromlying predicted
+  1159    56   395  1021    48   246   833  1859    31    43    47 <- onallfours predicted
+   366   201    23   431    23   311   392    47  9950    13   311 <- sittingontheground predicted
+   492     9    36    74    81   268   110    25    12   209    21 <- standingupfromsitting predicted
+   783   117    45   330    39   216   489    44   276    21   720 <- standingupfromsittingontheground predicted
+
+MCC:
+0.5132
+
+0-1 loss:
+0.3949
++/-:0.0009
+RMSE:
+0.6674
++/-:0.0004
+RMSE All Classes: 0.2237
+             +/-: 0.0000
+Logarithmic Loss: 1.9163
+             +/-: 0.0011
+Training time: 20 seconds
+Classification time: 20 seconds
+
+======================
+Petal: the system for learning from big data
+Version 0.2
+./petal localization/localization_mdl.pmeta localization/localization_mdl.pdata -x2 -v2 -lA3DE_LOSSY -lcu_sws -w50000 
+
+Loading metadata file localization/localization_mdl.pmeta
+Lossy Min Sketch Width: 50000 
+Using lcu_sws filter
+Cross validation experiment 1 for localization/localization_mdl.pdata
+Fold 0
+
+0-1 loss (fold 0): 0.3870
+RMSE (fold 0): 0.6530
+RMSE All Classes (fold 0):  0.2202
+Logarithmic Loss (fold 0):  1.8698
+--------------------------------------------
+Fold 1
+
+0-1 loss (fold 1): 0.3899
+RMSE (fold 1): 0.6526
+RMSE All Classes (fold 1):  0.2204
+Logarithmic Loss (fold 1):  1.8806
+--------------------------------------------
+
+ walki falli lying lying sitti sitti stand onall sitti stand stand <- Actual class
+ 15578   496   980  1805   385  1805  2799   611   222   261   471 <- walking predicted
+   876   429    37   903    40   463   652    64   206    16   124 <- falling predicted
+  2109    41  1478  1534    65   272  1707   450    38    72    75 <- lyingdown predicted
+  2513   611  1436 42998    96  1021  3896   848   309    86   268 <- lying predicted
+   893    54    51   117   254   486   177    61    29    83    36 <- sittingdown predicted
+  3285   425   318  1230   521 21089  1179   250   204   464   238 <- sitting predicted
+  4446   521  1327  4032   155  1038  5964   809   382   124   457 <- standingupfromlying predicted
+  1177    63   416   970    53   263   842  1969    41    30    50 <- onallfours predicted
+   370   200    26   504    24   305   430    49 10106    12   342 <- sittingontheground predicted
+   623    17    56    89    75   297   153    37    13   203    36 <- standingupfromsitting predicted
+   840   116    43   298    38   205   562    62   229    30   751 <- standingupfromsittingontheground predicted
+
+MCC:
+0.5209
+
+0-1 loss:
+0.3885
++/-:0.0021
+RMSE:
+0.6528
++/-:0.0003
+RMSE All Classes: 0.2203
+             +/-: 0.0002
+Logarithmic Loss: 1.8752
+             +/-: 0.0076
+Training time: 20 seconds
+Classification time: 20 seconds
+
+======================
+Petal: the system for learning from big data
+Version 0.2
+./petal localization/localization_mdl.pmeta localization/localization_mdl.pdata -x2 -v2 -lA3DE_LOSSY -lcu_sws -w60000 
+
+Loading metadata file localization/localization_mdl.pmeta
+Lossy Min Sketch Width: 60000 
+Using lcu_sws filter
+Cross validation experiment 1 for localization/localization_mdl.pdata
+Fold 0
+
+0-1 loss (fold 0): 0.3929
+RMSE (fold 0): 0.6332
+RMSE All Classes (fold 0):  0.2193
+Logarithmic Loss (fold 0):  1.9394
+--------------------------------------------
+Fold 1
+
+0-1 loss (fold 1): 0.3962
+RMSE (fold 1): 0.6329
+RMSE All Classes (fold 1):  0.2196
+Logarithmic Loss (fold 1):  1.9515
+--------------------------------------------
+
+ walki falli lying lying sitti sitti stand onall sitti stand stand <- Actual class
+ 15270   498   930  1843   339  1654  2735   643   261   268   451 <- walking predicted
+  1018   437    51   881    50   450   665    90   228    18   144 <- falling predicted
+  1987    52  1434  1489    74   349  1659   484    36    64    84 <- lyingdown predicted
+  2576   628  1459 43062    97   955  3959   878   298    72   297 <- lying predicted
+  1051    80    78   183   213   511   309    52    52   101    66 <- sittingdown predicted
+  3310   433   324  1335   549 21063  1193   256   221   445   227 <- sitting predicted
+  4142   401  1289  3543   157  1041  5599   803   345    99   451 <- standingupfromlying predicted
+  1233    64   400  1084    58   256   912  1809    65    38    70 <- onallfours predicted
+   458   224    57   520    31   335   513    51 10032    25   344 <- sittingontheground predicted
+   755    24    83   163    96   380   217    53    13   222    45 <- standingupfromsitting predicted
+   910   132    63   377    42   250   600    91   228    29   669 <- standingupfromsittingontheground predicted
+
+MCC:
+0.5139
+
+0-1 loss:
+0.3946
++/-:0.0024
+RMSE:
+0.6330
++/-:0.0001
+RMSE All Classes: 0.2194
+             +/-: 0.0002
+Logarithmic Loss: 1.9455
+             +/-: 0.0086
+Training time: 20 seconds
+Classification time: 20 seconds
+
+======================
+Petal: the system for learning from big data
+Version 0.2
+./petal localization/localization_mdl.pmeta localization/localization_mdl.pdata -x2 -v2 -lA3DE_LOSSY -lcu_sws -w70000 
+
+Loading metadata file localization/localization_mdl.pmeta
+Lossy Min Sketch Width: 70000 
+Using lcu_sws filter
+Cross validation experiment 1 for localization/localization_mdl.pdata
+Fold 0
+
+0-1 loss (fold 0): 0.3606
+RMSE (fold 0): 0.6481
+RMSE All Classes (fold 0):  0.2159
+Logarithmic Loss (fold 0):  1.7322
+--------------------------------------------
+Fold 1
+
+0-1 loss (fold 1): 0.3601
+RMSE (fold 1): 0.6472
+RMSE All Classes (fold 1):  0.2158
+Logarithmic Loss (fold 1):  1.7358
+--------------------------------------------
+
+ walki falli lying lying sitti sitti stand onall sitti stand stand <- Actual class
+ 17156   540   961  1508   382  1589  2733   538   207   286   484 <- walking predicted
+   825   469    25   768    43   378   605    51   202     7   120 <- falling predicted
+  1881    20  1578  1311    66   243  1694   427    30    59    51 <- lyingdown predicted
+  2329   619  1465 44522   118   954  3967   885   269    52   294 <- lying predicted
+   821    45    61   124   229   456   165    59    35   109    37 <- sittingdown predicted
+  2946   423   274  1183   538 21792  1077   220   181   458   187 <- sitting predicted
+  4104   470  1305  3420   137   861  6287   786   340   118   456 <- standingupfromlying predicted
+  1037    54   391   896    45   199   810  2154    30    30    61 <- onallfours predicted
+   353   201    20   401    23   275   407    28 10245    14   338 <- sittingontheground predicted
+   501    17    50    68   103   292   119    33    10   224    21 <- standingupfromsitting predicted
+   757   115    38   279    22   205   497    29   230    24   799 <- standingupfromsittingontheground predicted
+
+MCC:
+0.5537
+
+0-1 loss:
+0.3603
++/-:0.0003
+RMSE:
+0.6476
++/-:0.0007
+RMSE All Classes: 0.2158
+             +/-: 0.0001
+Logarithmic Loss: 1.7340
+             +/-: 0.0025
+Training time: 20 seconds
+Classification time: 20 seconds
+
+======================
+Petal: the system for learning from big data
+Version 0.2
+./petal localization/localization_mdl.pmeta localization/localization_mdl.pdata -x2 -v2 -lA3DE_LOSSY -lcu_sws -w80000 
+
+Loading metadata file localization/localization_mdl.pmeta
+Lossy Min Sketch Width: 80000 
+Using lcu_sws filter
+Cross validation experiment 1 for localization/localization_mdl.pdata
+Fold 0
+
+0-1 loss (fold 0): 0.3549
+RMSE (fold 0): 0.6345
+RMSE All Classes (fold 0):  0.2129
+Logarithmic Loss (fold 0):  1.6936
+--------------------------------------------
+Fold 1
+
+0-1 loss (fold 1): 0.3560
+RMSE (fold 1): 0.6345
+RMSE All Classes (fold 1):  0.2131
+Logarithmic Loss (fold 1):  1.7011
+--------------------------------------------
+
+ walki falli lying lying sitti sitti stand onall sitti stand stand <- Actual class
+ 17325   504   938  1451   371  1516  2740   553   190   278   468 <- walking predicted
+   819   459    28   763    35   390   602    44   191    16   119 <- falling predicted
+  1779    25  1535  1144    58   268  1530   416    34    61    49 <- lyingdown predicted
+  2303   636  1516 44864    96   842  3996   888   241    53   278 <- lying predicted
+   797    50    62   125   245   412   195    50    23   111    45 <- sittingdown predicted
+  3076   448   280  1157   553 22023  1082   257   187   441   207 <- sitting predicted
+  3966   451  1297  3366   137   823  6338   773   337   110   478 <- standingupfromlying predicted
+  1049    51   394   865    46   231   819  2100    33    41    49 <- onallfours predicted
+   394   215    21   391    35   261   418    47 10349    10   332 <- sittingontheground predicted
+   492    16    58    74    86   285   145    32    15   234    32 <- standingupfromsitting predicted
+   710   118    39   280    44   193   496    50   179    26   791 <- standingupfromsittingontheground predicted
+
+MCC:
+0.5595
+
+0-1 loss:
+0.3554
++/-:0.0008
+RMSE:
+0.6345
++/-:0.0000
+RMSE All Classes: 0.2130
+             +/-: 0.0001
+Logarithmic Loss: 1.6973
+             +/-: 0.0053
+Training time: 20 seconds
+Classification time: 20 seconds
+
+======================
+Petal: the system for learning from big data
+Version 0.2
+./petal localization/localization_mdl.pmeta localization/localization_mdl.pdata -x2 -v2 -lA3DE_LOSSY -lcu_sws -w90000 
+
+Loading metadata file localization/localization_mdl.pmeta
+Lossy Min Sketch Width: 90000 
+Using lcu_sws filter
+Cross validation experiment 1 for localization/localization_mdl.pdata
+Fold 0
+
+0-1 loss (fold 0): 0.3531
+RMSE (fold 0): 0.6230
+RMSE All Classes (fold 0):  0.2107
+Logarithmic Loss (fold 0):  1.6716
+--------------------------------------------
+Fold 1
+
+0-1 loss (fold 1): 0.3520
+RMSE (fold 1): 0.6233
+RMSE All Classes (fold 1):  0.2109
+Logarithmic Loss (fold 1):  1.6780
+--------------------------------------------
+
+ walki falli lying lying sitti sitti stand onall sitti stand stand <- Actual class
+ 17496   525   963  1463   383  1520  2766   597   209   277   485 <- walking predicted
+   774   464    35   665    30   337   564    64   167     6   108 <- falling predicted
+  1727    40  1459  1183    62   235  1492   433    32    53    45 <- lyingdown predicted
+  2385   623  1532 45133   102   900  4061   855   260    61   274 <- lying predicted
+   738    39    71   114   243   391   187    45    24    82    47 <- sittingdown predicted
+  3206   453   273  1247   572 22153  1138   242   189   474   214 <- sitting predicted
+  3726   437  1279  3053   123   755  6270   766   283    97   416 <- standingupfromlying predicted
+  1007    54   409   853    34   186   775  2070    31    43    67 <- onallfours predicted
+   382   212    23   409    32   273   458    46 10378    15   318 <- sittingontheground predicted
+   524    14    71    85    90   301   146    46    11   237    40 <- standingupfromsitting predicted
+   745   112    53   275    35   193   504    46   195    36   834 <- standingupfromsittingontheground predicted
+
+MCC:
+0.5624
+
+0-1 loss:
+0.3526
++/-:0.0007
+RMSE:
+0.6232
++/-:0.0002
+RMSE All Classes: 0.2108
+             +/-: 0.0002
+Logarithmic Loss: 1.6748
+             +/-: 0.0045
+Training time: 20 seconds
+Classification time: 20 seconds
+
+======================
+Petal: the system for learning from big data
+Version 0.2
+./petal localization/localization_mdl.pmeta localization/localization_mdl.pdata -x2 -v2 -lA3DE_LOSSY -lcu_sws -w100000 
+
+Loading metadata file localization/localization_mdl.pmeta
+Lossy Min Sketch Width: 100000 
+Using lcu_sws filter
+Cross validation experiment 1 for localization/localization_mdl.pdata
+Fold 0
+
+0-1 loss (fold 0): 0.3501
+RMSE (fold 0): 0.6140
+RMSE All Classes (fold 0):  0.2093
+Logarithmic Loss (fold 0):  1.6635
+--------------------------------------------
+Fold 1
+
+0-1 loss (fold 1): 0.3498
+RMSE (fold 1): 0.6134
+RMSE All Classes (fold 1):  0.2092
+Logarithmic Loss (fold 1):  1.6646
+--------------------------------------------
+
+ walki falli lying lying sitti sitti stand onall sitti stand stand <- Actual class
+ 17563   530   990  1443   395  1563  2791   597   184   282   499 <- walking predicted
+   797   425    28   670    36   323   568    63   163    16   109 <- falling predicted
+  1643    43  1534  1080    50   243  1456   420    40    45    66 <- lyingdown predicted
+  2317   680  1536 45451   114   907  4127   902   276    67   274 <- lying predicted
+   788    49    67   117   243   379   208    53    33    87    30 <- sittingdown predicted
+  3098   445   270  1154   563 22197  1127   244   151   479   212 <- sitting predicted
+  3768   424  1181  2957   108   741  6230   707   287    96   426 <- standingupfromlying predicted
+   984    44   410   869    44   203   776  2098    33    39    51 <- onallfours predicted
+   402   223    34   386    35   253   431    45 10399    17   348 <- sittingontheground predicted
+   603    16    74    85    86   269   148    38    11   222    28 <- standingupfromsitting predicted
+   747    94    44   268    32   166   499    43   202    31   805 <- standingupfromsittingontheground predicted
+
+MCC:
+0.5653
+
+0-1 loss:
+0.3500
++/-:0.0002
+RMSE:
+0.6137
++/-:0.0004
+RMSE All Classes: 0.2092
+             +/-: 0.0000
+Logarithmic Loss: 1.6641
+             +/-: 0.0008
+Training time: 20 seconds
+Classification time: 20 seconds
+
+======================
+Petal: the system for learning from big data
+Version 0.2
+./petal localization/localization_mdl.pmeta localization/localization_mdl.pdata -x2 -v2 -lA3DE_LOSSY -lcu_sws -w200000 
+
+Loading metadata file localization/localization_mdl.pmeta
+Lossy Min Sketch Width: 200000 
+Using lcu_sws filter
+Cross validation experiment 1 for localization/localization_mdl.pdata
+Fold 0
+
+0-1 loss (fold 0): 0.3332
+RMSE (fold 0): 0.5571
+RMSE All Classes (fold 0):  0.2037
+Logarithmic Loss (fold 0):  1.6109
+--------------------------------------------
+Fold 1
+
+0-1 loss (fold 1): 0.3327
+RMSE (fold 1): 0.5570
+RMSE All Classes (fold 1):  0.2038
+Logarithmic Loss (fold 1):  1.6240
+--------------------------------------------
+
+ walki falli lying lying sitti sitti stand onall sitti stand stand <- Actual class
+ 18854   521  1082  1435   418  1505  2867   625   182   332   512 <- walking predicted
+   725   395    47   543    30   281   485    64   136    11    93 <- falling predicted
+  1368    42  1376   905    46   186  1304   370    27    52    63 <- lyingdown predicted
+  2259   710  1560 46446    92   897  4125   889   252    48   253 <- lying predicted
+   681    59    78   165   250   331   225    61    29    87    32 <- sittingdown predicted
+  3040   471   287  1097   607 22617  1104   243   190   474   211 <- sitting predicted
+  3211   364  1215  2412    96   605  6375   642   222    80   385 <- standingupfromlying predicted
+   909    52   363   761    25   170   766  2114    34    28    64 <- onallfours predicted
+   422   239    31   375    34   257   467    69 10502    28   368 <- sittingontheground predicted
+   525    23    81   100    74   243   180    55     9   217    45 <- standingupfromsitting predicted
+   716    97    48   241    34   152   463    78   196    24   822 <- standingupfromsittingontheground predicted
+
+MCC:
+0.5849
+
+0-1 loss:
+0.3330
++/-:0.0004
+RMSE:
+0.5571
++/-:0.0001
+RMSE All Classes: 0.2038
+             +/-: 0.0001
+Logarithmic Loss: 1.6175
+             +/-: 0.0093
+Training time: 20 seconds
+Classification time: 20 seconds
+
+======================
+Petal: the system for learning from big data
+Version 0.2
+./petal localization/localization_mdl.pmeta localization/localization_mdl.pdata -x2 -v2 -lA3DE_LOSSY -lcu_sws -w300000 
+
+Loading metadata file localization/localization_mdl.pmeta
+Lossy Min Sketch Width: 300000 
+Using lcu_sws filter
+Cross validation experiment 1 for localization/localization_mdl.pdata
+Fold 0
+
+0-1 loss (fold 0): 0.3166
+RMSE (fold 0): 0.5328
+RMSE All Classes (fold 0):  0.2005
+Logarithmic Loss (fold 0):  1.5397
+--------------------------------------------
+Fold 1
+
+0-1 loss (fold 1): 0.3178
+RMSE (fold 1): 0.5339
+RMSE All Classes (fold 1):  0.2013
+Logarithmic Loss (fold 1):  1.5586
+--------------------------------------------
+
+ walki falli lying lying sitti sitti stand onall sitti stand stand <- Actual class
+ 20089   544  1126  1288   459  1499  2922   642   204   326   494 <- walking predicted
+   607   392    32   425    25   237   398    56   104    13    91 <- falling predicted
+  1167    23  1367   763    42   164  1194   336    15    51    59 <- lyingdown predicted
+  2133   727  1629 47196    92   837  4288   906   265    49   275 <- lying predicted
+   537    50    54   100   243   289   168    54    32    84    42 <- sittingdown predicted
+  3026   462   282  1054   612 22881  1057   248   184   509   213 <- sitting predicted
+  3092   379  1198  2303    86   548  6613   645   192    74   369 <- standingupfromlying predicted
+   710    49   324   756    35   148   705  2161    36    20    55 <- onallfours predicted
+   363   251    35   315    32   229   443    57 10580    16   393 <- sittingontheground predicted
+   388     9    74    85    62   270   132    50     9   218    31 <- standingupfromsitting predicted
+   598    87    47   195    18   142   441    55   158    21   826 <- standingupfromsittingontheground predicted
+
+MCC:
+0.6031
+
+0-1 loss:
+0.3172
++/-:0.0008
+RMSE:
+0.5334
++/-:0.0008
+RMSE All Classes: 0.2009
+             +/-: 0.0005
+Logarithmic Loss: 1.5492
+             +/-: 0.0134
+Training time: 20 seconds
+Classification time: 20 seconds
+
+======================
+Petal: the system for learning from big data
+Version 0.2
+./petal localization/localization_mdl.pmeta localization/localization_mdl.pdata -x2 -v2 -lA3DE_LOSSY -lcu_sws -w400000 
+
+Loading metadata file localization/localization_mdl.pmeta
+Lossy Min Sketch Width: 400000 
+Using lcu_sws filter
+Cross validation experiment 1 for localization/localization_mdl.pdata
+Fold 0
+
+0-1 loss (fold 0): 0.3057
+RMSE (fold 0): 0.5207
+RMSE All Classes (fold 0):  0.1979
+Logarithmic Loss (fold 0):  1.4820
+--------------------------------------------
+Fold 1
+
+0-1 loss (fold 1): 0.3041
+RMSE (fold 1): 0.5211
+RMSE All Classes (fold 1):  0.1982
+Logarithmic Loss (fold 1):  1.5025
+--------------------------------------------
+
+ walki falli lying lying sitti sitti stand onall sitti stand stand <- Actual class
+ 21154   570  1172  1270   443  1510  3077   687   165   343   549 <- walking predicted
+   500   390    24   391    26   234   343    37    92    10    88 <- falling predicted
+  1004    24  1351   680    45   150  1111   297    13    43    35 <- lyingdown predicted
+  2003   768  1587 47661   104   834  4257   902   267    47   280 <- lying predicted
+   429    42    47    83   256   276   147    52    23    83    40 <- sittingdown predicted
+  2829   444   243   985   603 22996  1023   217   174   500   192 <- sitting predicted
+  2931   363  1265  2212    74   533  6872   606   205    68   404 <- standingupfromlying predicted
+   628    42   360   668    26   137   640  2242    30    30    45 <- onallfours predicted
+   350   240    29   291    30   213   390    65 10628    17   368 <- sittingontheground predicted
+   360    12    57    52    80   231   108    53    13   221    27 <- standingupfromsitting predicted
+   522    78    33   187    19   130   393    52   169    19   820 <- standingupfromsittingontheground predicted
+
+MCC:
+0.6177
+
+0-1 loss:
+0.3049
++/-:0.0012
+RMSE:
+0.5209
++/-:0.0002
+RMSE All Classes: 0.1980
+             +/-: 0.0002
+Logarithmic Loss: 1.4922
+             +/-: 0.0145
+Training time: 20 seconds
+Classification time: 20 seconds
+
+======================
+Petal: the system for learning from big data
+Version 0.2
+./petal localization/localization_mdl.pmeta localization/localization_mdl.pdata -x2 -v2 -lA3DE_LOSSY -lcu_sws -w500000 
+
+Loading metadata file localization/localization_mdl.pmeta
+Lossy Min Sketch Width: 500000 
+Using lcu_sws filter
+Cross validation experiment 1 for localization/localization_mdl.pdata
+Fold 0
+
+0-1 loss (fold 0): 0.2986
+RMSE (fold 0): 0.5139
+RMSE All Classes (fold 0):  0.1962
+Logarithmic Loss (fold 0):  1.4488
+--------------------------------------------
+Fold 1
+
+0-1 loss (fold 1): 0.2979
+RMSE (fold 1): 0.5148
+RMSE All Classes (fold 1):  0.1965
+Logarithmic Loss (fold 1):  1.4680
+--------------------------------------------
+
+ walki falli lying lying sitti sitti stand onall sitti stand stand <- Actual class
+ 21671   614  1209  1241   467  1546  3146   683   165   369   562 <- walking predicted
+   471   375    17   359    19   198   318    38    88    10    76 <- falling predicted
+   907    11  1367   643    37   126  1099   295     8    34    26 <- lyingdown predicted
+  2016   768  1627 47912   103   819  4327   907   273    49   271 <- lying predicted
+   407    30    39    64   249   242   103    37    20    89    21 <- sittingdown predicted
+  2741   447   256   971   623 23167   987   244   170   508   211 <- sitting predicted
+  2823   382  1241  2168    63   483  6948   619   201    63   387 <- standingupfromlying predicted
+   616    29   307   651    29   103   580  2254    16    20    43 <- onallfours predicted
+   301   239    21   266    27   220   398    51 10686    11   380 <- sittingontheground predicted
+   315     9    52    59    70   233    90    42     7   211    24 <- standingupfromsitting predicted
+   442    69    32   146    19   107   365    40   145    17   847 <- standingupfromsittingontheground predicted
+
+MCC:
+0.6254
+
+0-1 loss:
+0.2983
++/-:0.0005
+RMSE:
+0.5144
++/-:0.0007
+RMSE All Classes: 0.1964
+             +/-: 0.0002
+Logarithmic Loss: 1.4584
+             +/-: 0.0136
+Training time: 20 seconds
+Classification time: 20 seconds
+
+======================
+Petal: the system for learning from big data
+Version 0.2
+./petal localization/localization_mdl.pmeta localization/localization_mdl.pdata -x2 -v2 -lA3DE_LOSSY -lcu_sws -w600000 
+
+Loading metadata file localization/localization_mdl.pmeta
+Lossy Min Sketch Width: 600000 
+Using lcu_sws filter
+Cross validation experiment 1 for localization/localization_mdl.pdata
+Fold 0
+
+0-1 loss (fold 0): 0.2940
+RMSE (fold 0): 0.5101
+RMSE All Classes (fold 0):  0.1949
+Logarithmic Loss (fold 0):  1.4267
+--------------------------------------------
+Fold 1
+
+0-1 loss (fold 1): 0.2950
+RMSE (fold 1): 0.5117
+RMSE All Classes (fold 1):  0.1958
+Logarithmic Loss (fold 1):  1.4514
+--------------------------------------------
+
+ walki falli lying lying sitti sitti stand onall sitti stand stand <- Actual class
+ 21992   608  1200  1263   483  1532  3138   680   177   356   567 <- walking predicted
+   422   386    19   323    26   170   320    37    80     7    72 <- falling predicted
+   876     9  1367   622    34   119  1070   305     6    37    28 <- lyingdown predicted
+  1964   789  1644 48034    87   828  4371   906   275    49   256 <- lying predicted
+   366    25    34    53   242   243   100    40    17    83    32 <- sittingdown predicted
+  2727   445   241   933   623 23220   966   217   162   522   199 <- sitting predicted
+  2808   369  1258  2152    80   493  7034   617   194    69   398 <- standingupfromlying predicted
+   565    28   313   654    27   110   565  2277    18    22    40 <- onallfours predicted
+   273   233    24   260    23   199   368    48 10689    11   373 <- sittingontheground predicted
+   280     8    47    55    65   213    80    42     6   210    23 <- standingupfromsitting predicted
+   437    73    21   131    16   117   349    41   155    15   860 <- standingupfromsittingontheground predicted
+
+MCC:
+0.6299
+
+0-1 loss:
+0.2945
++/-:0.0007
+RMSE:
+0.5109
++/-:0.0011
+RMSE All Classes: 0.1953
+             +/-: 0.0006
+Logarithmic Loss: 1.4390
+             +/-: 0.0175
+Training time: 20 seconds
+Classification time: 20 seconds
+
+======================
+Petal: the system for learning from big data
+Version 0.2
+./petal localization/localization_mdl.pmeta localization/localization_mdl.pdata -x2 -v2 -lA3DE_LOSSY -lcu_sws -w700000 
+
+Loading metadata file localization/localization_mdl.pmeta
+Lossy Min Sketch Width: 700000 
+Using lcu_sws filter
+Cross validation experiment 1 for localization/localization_mdl.pdata
+Fold 0
+
+0-1 loss (fold 0): 0.2922
+RMSE (fold 0): 0.5079
+RMSE All Classes (fold 0):  0.1943
+Logarithmic Loss (fold 0):  1.4153
+--------------------------------------------
+Fold 1
+
+0-1 loss (fold 1): 0.2922
+RMSE (fold 1): 0.5088
+RMSE All Classes (fold 1):  0.1948
+Logarithmic Loss (fold 1):  1.4366
+--------------------------------------------
+
+ walki falli lying lying sitti sitti stand onall sitti stand stand <- Actual class
+ 22172   602  1212  1258   484  1565  3139   698   154   366   557 <- walking predicted
+   398   390    14   327    29   194   308    35    74     7    72 <- falling predicted
+   840    12  1358   601    29   104  1040   271     9    34    19 <- lyingdown predicted
+  1994   802  1641 48151    95   813  4385   927   270    47   278 <- lying predicted
+   342    28    38    47   248   242    90    30    17    78    34 <- sittingdown predicted
+  2696   443   225   945   611 23215   957   214   169   519   192 <- sitting predicted
+  2783   368  1261  2117    69   497  7081   619   189    69   393 <- standingupfromlying predicted
+   539    27   333   639    25   101   575  2295    21    24    40 <- onallfours predicted
+   257   226    21   237    25   207   375    38 10710    14   380 <- sittingontheground predicted
+   274     5    44    42    73   213    81    40     6   208    22 <- standingupfromsitting predicted
+   415    70    21   116    18    93   330    43   160    15   861 <- standingupfromsittingontheground predicted
+
+MCC:
+0.6326
+
+0-1 loss:
+0.2922
++/-:0.0000
+RMSE:
+0.5083
++/-:0.0006
+RMSE All Classes: 0.1946
+             +/-: 0.0003
+Logarithmic Loss: 1.4260
+             +/-: 0.0151
+Training time: 20 seconds
+Classification time: 20 seconds
+
+======================
+Petal: the system for learning from big data
+Version 0.2
+./petal localization/localization_mdl.pmeta localization/localization_mdl.pdata -x2 -v2 -lA3DE_LOSSY -lcu_sws -w800000 
+
+Loading metadata file localization/localization_mdl.pmeta
+Lossy Min Sketch Width: 800000 
+Using lcu_sws filter
+Cross validation experiment 1 for localization/localization_mdl.pdata
+Fold 0
+
+0-1 loss (fold 0): 0.2906
+RMSE (fold 0): 0.5066
+RMSE All Classes (fold 0):  0.1939
+Logarithmic Loss (fold 0):  1.4074
+--------------------------------------------
+Fold 1
+
+0-1 loss (fold 1): 0.2912
+RMSE (fold 1): 0.5079
+RMSE All Classes (fold 1):  0.1945
+Logarithmic Loss (fold 1):  1.4318
+--------------------------------------------
+
+ walki falli lying lying sitti sitti stand onall sitti stand stand <- Actual class
+ 22255   607  1217  1248   474  1541  3183   700   164   375   575 <- walking predicted
+   409   384    17   306    20   177   306    26    76     6    72 <- falling predicted
+   819    11  1362   588    33   111  1025   292     4    34    18 <- lyingdown predicted
+  1971   803  1623 48213   105   809  4351   923   269    43   273 <- lying predicted
+   318    28    30    41   246   250    83    31    14    81    27 <- sittingdown predicted
+  2691   435   229   914   621 23253   958   216   165   523   189 <- sitting predicted
+  2783   371  1278  2121    69   478  7101   611   194    65   402 <- standingupfromlying predicted
+   534    27   324   639    23   106   568  2301    13    22    42 <- onallfours predicted
+   258   232    19   232    25   208   367    43 10728    11   377 <- sittingontheground predicted
+   277     5    45    49    71   208    82    35     4   206    24 <- standingupfromsitting predicted
+   395    70    24   129    19   103   337    32   148    15   849 <- standingupfromsittingontheground predicted
+
+MCC:
+0.6341
+
+0-1 loss:
+0.2909
++/-:0.0004
+RMSE:
+0.5073
++/-:0.0010
+RMSE All Classes: 0.1942
+             +/-: 0.0004
+Logarithmic Loss: 1.4196
+             +/-: 0.0173
+Training time: 20 seconds
+Classification time: 20 seconds
+
+======================
+Petal: the system for learning from big data
+Version 0.2
+./petal localization/localization_mdl.pmeta localization/localization_mdl.pdata -x2 -v2 -lA3DE_LOSSY -lcu_sws -w900000 
+
+Loading metadata file localization/localization_mdl.pmeta
+Lossy Min Sketch Width: 900000 
+Using lcu_sws filter
+Cross validation experiment 1 for localization/localization_mdl.pdata
+Fold 0
+
+0-1 loss (fold 0): 0.2892
+RMSE (fold 0): 0.5055
+RMSE All Classes (fold 0):  0.1936
+Logarithmic Loss (fold 0):  1.4029
+--------------------------------------------
+Fold 1
+
+0-1 loss (fold 1): 0.2901
+RMSE (fold 1): 0.5068
+RMSE All Classes (fold 1):  0.1942
+Logarithmic Loss (fold 1):  1.4260
+--------------------------------------------
+
+ walki falli lying lying sitti sitti stand onall sitti stand stand <- Actual class
+ 22325   628  1228  1225   483  1560  3146   704   156   366   565 <- walking predicted
+   395   379    13   311    22   176   297    28    73     5    72 <- falling predicted
+   831     7  1354   585    31   107  1046   285     8    34    17 <- lyingdown predicted
+  1974   811  1644 48245    95   798  4354   925   266    45   261 <- lying predicted
+   324    29    38    36   249   229    84    29    18    85    25 <- sittingdown predicted
+  2669   428   236   924   627 23286   957   218   162   524   199 <- sitting predicted
+  2762   372  1253  2108    67   484  7145   604   184    66   402 <- standingupfromlying predicted
+   521    23   319   652    22    95   567  2316    10    22    43 <- onallfours predicted
+   249   222    20   232    23   210   352    35 10738    12   380 <- sittingontheground predicted
+   260     5    42    43    71   205    79    36     7   207    19 <- standingupfromsitting predicted
+   400    69    21   119    16    94   334    30   157    15   865 <- standingupfromsittingontheground predicted
+
+MCC:
+0.6357
+
+0-1 loss:
+0.2896
++/-:0.0006
+RMSE:
+0.5061
++/-:0.0009
+RMSE All Classes: 0.1939
+             +/-: 0.0004
+Logarithmic Loss: 1.4145
+             +/-: 0.0163
+Training time: 20 seconds
+Classification time: 20 seconds
+
+======================
+Petal: the system for learning from big data
+Version 0.2
+./petal localization/localization_mdl.pmeta localization/localization_mdl.pdata -x2 -v2 -lA3DE_LOSSY -lcu_sws -w1000000 
+
+Loading metadata file localization/localization_mdl.pmeta
+Lossy Min Sketch Width: 1000000 
+Using lcu_sws filter
+Cross validation experiment 1 for localization/localization_mdl.pdata
+Fold 0
+
+0-1 loss (fold 0): 0.2887
+RMSE (fold 0): 0.5048
+RMSE All Classes (fold 0):  0.1933
+Logarithmic Loss (fold 0):  1.3985
+--------------------------------------------
+Fold 1
+
+0-1 loss (fold 1): 0.2891
+RMSE (fold 1): 0.5060
+RMSE All Classes (fold 1):  0.1939
+Logarithmic Loss (fold 1):  1.4205
+--------------------------------------------
+
+ walki falli lying lying sitti sitti stand onall sitti stand stand <- Actual class
+ 22405   623  1221  1250   484  1572  3162   701   157   372   574 <- walking predicted
+   389   372    12   290    22   176   296    28    74     7    71 <- falling predicted
+   811     7  1368   590    29   100  1034   281     5    32    18 <- lyingdown predicted
+  1943   808  1647 48291    97   804  4369   919   268    50   263 <- lying predicted
+   320    22    28    30   248   233    79    31    12    82    23 <- sittingdown predicted
+  2679   438   235   899   628 23282   935   222   165   518   196 <- sitting predicted
+  2754   375  1268  2092    63   481  7148   604   188    64   397 <- standingupfromlying predicted
+   518    21   313   647    24    92   554  2309    13    20    42 <- onallfours predicted
+   248   231    19   243    22   209   370    43 10738    10   383 <- sittingontheground predicted
+   255     7    37    41    72   202    72    37     7   211    20 <- standingupfromsitting predicted
+   388    69    20   107    17    93   342    35   152    15   861 <- standingupfromsittingontheground predicted
+
+MCC:
+0.6366
+
+0-1 loss:
+0.2889
++/-:0.0003
+RMSE:
+0.5054
++/-:0.0008
+RMSE All Classes: 0.1936
+             +/-: 0.0004
+Logarithmic Loss: 1.4095
+             +/-: 0.0155
+Training time: 20 seconds
+Classification time: 20 seconds
+
+======================
+Petal: the system for learning from big data
+Version 0.2
+./petal localization/localization_mdl.pmeta localization/localization_mdl.pdata -x2 -v2 -lA3DE_LOSSY -lcu_sws -w1250000 
+
+Loading metadata file localization/localization_mdl.pmeta
+Lossy Min Sketch Width: 1250000 
+Using lcu_sws filter
+Cross validation experiment 1 for localization/localization_mdl.pdata
+Fold 0
+
+0-1 loss (fold 0): 0.2881
+RMSE (fold 0): 0.5040
+RMSE All Classes (fold 0):  0.1930
+Logarithmic Loss (fold 0):  1.3933
+--------------------------------------------
+Fold 1
+
+0-1 loss (fold 1): 0.2880
+RMSE (fold 1): 0.5053
+RMSE All Classes (fold 1):  0.1936
+Logarithmic Loss (fold 1):  1.4172
+--------------------------------------------
+
+ walki falli lying lying sitti sitti stand onall sitti stand stand <- Actual class
+ 22462   623  1231  1225   489  1576  3156   705   158   370   575 <- walking predicted
+   378   372    12   294    20   170   294    28    69     4    68 <- falling predicted
+   808     6  1370   576    30   112  1016   286     3    30    16 <- lyingdown predicted
+  1962   818  1639 48333    94   797  4390   927   273    49   269 <- lying predicted
+   321    25    29    34   247   229    79    29    13    81    23 <- sittingdown predicted
+  2660   437   233   914   629 23304   949   212   163   526   192 <- sitting predicted
+  2740   370  1264  2096    67   468  7155   606   175    65   394 <- standingupfromlying predicted
+   504    19   317   635    22    90   568  2317    17    22    38 <- onallfours predicted
+   241   229    17   233    24   207   354    37 10745    12   391 <- sittingontheground predicted
+   242     7    38    38    67   203    67    35     6   208    19 <- standingupfromsitting predicted
+   392    67    18   102    17    88   333    28   157    14   863 <- standingupfromsittingontheground predicted
+
+MCC:
+0.6376
+
+0-1 loss:
+0.2880
++/-:0.0000
+RMSE:
+0.5047
++/-:0.0010
+RMSE All Classes: 0.1933
+             +/-: 0.0004
+Logarithmic Loss: 1.4053
+             +/-: 0.0170
+Training time: 20 seconds
+Classification time: 20 seconds
+
+======================
+Petal: the system for learning from big data
+Version 0.2
+./petal localization/localization_mdl.pmeta localization/localization_mdl.pdata -x2 -v2 -lA3DE_LOSSY -lcu_sws -w1500000 
+
+Loading metadata file localization/localization_mdl.pmeta
+Lossy Min Sketch Width: 1500000 
+Using lcu_sws filter
+Cross validation experiment 1 for localization/localization_mdl.pdata
+Fold 0
+
+0-1 loss (fold 0): 0.2872
+RMSE (fold 0): 0.5035
+RMSE All Classes (fold 0):  0.1929
+Logarithmic Loss (fold 0):  1.3902
+--------------------------------------------
+Fold 1
+
+0-1 loss (fold 1): 0.2878
+RMSE (fold 1): 0.5049
+RMSE All Classes (fold 1):  0.1935
+Logarithmic Loss (fold 1):  1.4156
+--------------------------------------------
+
+ walki falli lying lying sitti sitti stand onall sitti stand stand <- Actual class
+ 22491   623  1233  1235   492  1582  3169   704   156   371   577 <- walking predicted
+   371   375    11   297    21   174   291    30    69     5    69 <- falling predicted
+   792     7  1371   578    30   104  1018   278     5    31    15 <- lyingdown predicted
+  1957   820  1642 48344    97   795  4372   917   270    46   271 <- lying predicted
+   313    26    28    29   248   228    79    29    13    80    24 <- sittingdown predicted
+  2649   435   229   900   625 23312   941   214   165   527   196 <- sitting predicted
+  2768   371  1263  2095    62   469  7175   611   181    66   393 <- standingupfromlying predicted
+   506    19   316   637    23    90   557  2325     9    21    40 <- onallfours predicted
+   244   228    17   229    23   200   359    37 10753    10   386 <- sittingontheground predicted
+   236     5    41    36    69   201    67    36     5   210    19 <- standingupfromsitting predicted
+   383    64    17   100    16    89   333    29   153    14   858 <- standingupfromsittingontheground predicted
+
+MCC:
+0.6382
+
+0-1 loss:
+0.2875
++/-:0.0004
+RMSE:
+0.5042
++/-:0.0010
+RMSE All Classes: 0.1932
+             +/-: 0.0005
+Logarithmic Loss: 1.4029
+             +/-: 0.0180
+Training time: 20 seconds
+Classification time: 20 seconds
+
+======================
+Petal: the system for learning from big data
+Version 0.2
+./petal localization/localization_mdl.pmeta localization/localization_mdl.pdata -x2 -v2 -lA3DE_LOSSY -lcu_sws -w1750000 
+
+Loading metadata file localization/localization_mdl.pmeta
+Lossy Min Sketch Width: 1750000 
+Using lcu_sws filter
+Cross validation experiment 1 for localization/localization_mdl.pdata
+Fold 0
+
+0-1 loss (fold 0): 0.2873
+RMSE (fold 0): 0.5034
+RMSE All Classes (fold 0):  0.1929
+Logarithmic Loss (fold 0):  1.3900
+--------------------------------------------
+Fold 1
+
+0-1 loss (fold 1): 0.2874
+RMSE (fold 1): 0.5046
+RMSE All Classes (fold 1):  0.1934
+Logarithmic Loss (fold 1):  1.4128
+--------------------------------------------
+
+ walki falli lying lying sitti sitti stand onall sitti stand stand <- Actual class
+ 22516   622  1235  1228   491  1571  3170   706   158   370   573 <- walking predicted
+   366   375    10   299    22   175   295    26    69     6    67 <- falling predicted
+   798     7  1369   570    31   102  1016   281     5    33    16 <- lyingdown predicted
+  1953   824  1647 48351    94   795  4376   922   272    49   268 <- lying predicted
+   302    26    30    28   246   225    76    27    13    79    23 <- sittingdown predicted
+  2654   434   230   900   625 23321   934   216   163   525   196 <- sitting predicted
+  2762   369  1260  2096    64   469  7176   610   184    65   401 <- standingupfromlying predicted
+   501    19   315   639    23    90   563  2321     9    22    44 <- onallfours predicted
+   236   230    17   226    24   201   361    38 10748    10   386 <- sittingontheground predicted
+   244     4    37    39    70   203    66    34     5   209    20 <- standingupfromsitting predicted
+   378    63    18   104    16    92   328    29   153    13   854 <- standingupfromsittingontheground predicted
+
+MCC:
+0.6384
+
+0-1 loss:
+0.2874
++/-:0.0001
+RMSE:
+0.5040
++/-:0.0009
+RMSE All Classes: 0.1931
+             +/-: 0.0004
+Logarithmic Loss: 1.4015
+             +/-: 0.0161
+Training time: 20 seconds
+Classification time: 20 seconds
+
+======================
+Petal: the system for learning from big data
+Version 0.2
+./petal localization/localization_mdl.pmeta localization/localization_mdl.pdata -x2 -v2 -lA3DE_LOSSY -lcu_sws -w2000000 
+
+Loading metadata file localization/localization_mdl.pmeta
+Lossy Min Sketch Width: 2000000 
+Using lcu_sws filter
+Cross validation experiment 1 for localization/localization_mdl.pdata
+Fold 0
+
+0-1 loss (fold 0): 0.2870
+RMSE (fold 0): 0.5032
+RMSE All Classes (fold 0):  0.1928
+Logarithmic Loss (fold 0):  1.3893
+--------------------------------------------
+Fold 1
+
+0-1 loss (fold 1): 0.2874
+RMSE (fold 1): 0.5046
+RMSE All Classes (fold 1):  0.1934
+Logarithmic Loss (fold 1):  1.4133
+--------------------------------------------
+
+ walki falli lying lying sitti sitti stand onall sitti stand stand <- Actual class
+ 22523   623  1227  1223   489  1573  3165   704   157   369   575 <- walking predicted
+   371   371    10   294    21   172   292    25    69     5    68 <- falling predicted
+   795     7  1374   571    30    98  1011   282     5    32    17 <- lyingdown predicted
+  1949   826  1644 48360    95   799  4384   919   273    46   267 <- lying predicted
+   306    26    29    27   247   230    73    28    13    80    23 <- sittingdown predicted
+  2659   432   234   899   627 23317   937   218   166   526   194 <- sitting predicted
+  2751   370  1264  2092    64   472  7184   615   181    67   395 <- standingupfromlying predicted
+   500    18   314   642    23    90   555  2316    10    22    40 <- onallfours predicted
+   234   230    17   231    23   202   362    37 10747    10   389 <- sittingontheground predicted
+   242     4    37    37    71   202    68    36     6   210    19 <- standingupfromsitting predicted
+   380    66    18   104    16    89   330    30   152    14   861 <- standingupfromsittingontheground predicted
+
+MCC:
+0.6386
+
+0-1 loss:
+0.2872
++/-:0.0003
+RMSE:
+0.5039
++/-:0.0010
+RMSE All Classes: 0.1931
+             +/-: 0.0004
+Logarithmic Loss: 1.4013
+             +/-: 0.0170
+Training time: 20 seconds
+Classification time: 20 seconds
+

@@ -1,0 +1,147 @@
+
+A3DE plain - localization
+
+A3DE MIN SKETCH - localization
+sketch width = 10000
+time: 6 seconds
+sketch width = 20000
+time: 11 seconds
+sketch width = 30000
+time: 10 seconds
+sketch width = 40000
+time: 10 seconds
+sketch width = 50000
+time: 10 seconds
+sketch width = 60000
+time: 11 seconds
+sketch width = 70000
+time: 11 seconds
+sketch width = 80000
+time: 10 seconds
+sketch width = 90000
+time: 11 seconds
+sketch width = 100000
+time: 11 seconds
+sketch width = 200000
+time: 11 seconds
+sketch width = 300000
+time: 10 seconds
+sketch width = 400000
+time: 12 seconds
+sketch width = 500000
+time: 12 seconds
+sketch width = 600000
+time: 12 seconds
+sketch width = 700000
+time: 11 seconds
+sketch width = 800000
+time: 12 seconds
+sketch width = 900000
+time: 11 seconds
+sketch width = 1000000
+time: 12 seconds
+sketch width = 1250000
+time: 11 seconds
+sketch width = 1500000
+time: 12 seconds
+sketch width = 1750000
+time: 12 seconds
+sketch width = 2000000
+time: 12 seconds
+
+A3DE LOSSY WS - localization
+sketch width = 10000
+time: 12 seconds
+sketch width = 20000
+time: 12 seconds
+sketch width = 30000
+time: 11 seconds
+sketch width = 40000
+time: 12 seconds
+sketch width = 50000
+time: 12 seconds
+sketch width = 60000
+time: 12 seconds
+sketch width = 70000
+time: 12 seconds
+sketch width = 80000
+time: 13 seconds
+sketch width = 90000
+time: 11 seconds
+sketch width = 100000
+time: 13 seconds
+sketch width = 200000
+time: 13 seconds
+sketch width = 300000
+time: 11 seconds
+sketch width = 400000
+time: 13 seconds
+sketch width = 500000
+time: 11 seconds
+sketch width = 600000
+time: 11 seconds
+sketch width = 700000
+time: 11 seconds
+sketch width = 800000
+time: 11 seconds
+sketch width = 900000
+time: 11 seconds
+sketch width = 1000000
+time: 12 seconds
+sketch width = 1250000
+time: 13 seconds
+sketch width = 1500000
+time: 13 seconds
+sketch width = 1750000
+time: 13 seconds
+sketch width = 2000000
+time: 12 seconds
+
+A3DE LOSSY SWS - localization
+sketch width = 10000
+time: 15 seconds
+sketch width = 20000
+time: 11 seconds
+sketch width = 30000
+time: 11 seconds
+sketch width = 40000
+time: 11 seconds
+sketch width = 50000
+time: 11 seconds
+sketch width = 60000
+time: 11 seconds
+sketch width = 70000
+time: 11 seconds
+sketch width = 80000
+time: 11 seconds
+sketch width = 90000
+time: 10 seconds
+sketch width = 100000
+time: 12 seconds
+sketch width = 200000
+time: 11 seconds
+sketch width = 300000
+time: 12 seconds
+sketch width = 400000
+time: 11 seconds
+sketch width = 500000
+time: 11 seconds
+sketch width = 600000
+time: 12 seconds
+sketch width = 700000
+time: 12 seconds
+sketch width = 800000
+time: 11 seconds
+sketch width = 900000
+time: 12 seconds
+sketch width = 1000000
+time: 14 seconds
+sketch width = 1250000
+time: 13 seconds
+sketch width = 1500000
+time: 11 seconds
+sketch width = 1750000
+time: 12 seconds
+sketch width = 2000000
+time: 12 seconds
+time: 16 seconds
